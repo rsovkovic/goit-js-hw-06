@@ -12,6 +12,6 @@ function handleSubmit(event) {
     alert("All fields must be filled out.");
   }
 
-  console.log(`{Email: ${email}, Password: ${password}}`);
+  console.log({ Email: email, Password: password });
   form.reset();
 }

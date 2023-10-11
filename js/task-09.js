@@ -5,8 +5,9 @@ const elBody = divContent.parentNode;
 
 changeBtn.addEventListener("click", handleClick);
 function handleClick() {
-  elBody.style.backgroundColor = getRandomHexColor();
-  spanText.textContent = getRandomHexColor();
+  let changeColor = getRandomHexColor();
+  elBody.style.backgroundColor = changeColor;
+  spanText.textContent = changeColor;
 }
 
 function getRandomHexColor() {
